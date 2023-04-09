@@ -1,0 +1,10 @@
+n=int(input())
+c=2
+t="NO"
+while(c<n):
+    if((n-c)%2==0):
+        t="YES"
+        break
+    else:
+        c=c+2
+print(t) 
